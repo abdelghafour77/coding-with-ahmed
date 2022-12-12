@@ -3,7 +3,7 @@
 include 'Models/model.php';
 class User extends  Model
 {
-
+      public static $db_table = 'users';
       // public function save()
       // {
 
@@ -11,3 +11,4 @@ class User extends  Model
       //       Database::executeQuery($data);
       // }
 }
+

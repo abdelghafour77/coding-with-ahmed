@@ -4,13 +4,14 @@ include 'Models/Classroom.php';
 
 
 $user = new User();
-$user->name = "youssef";
-$user->email = "youssef@gmail.com";
+$user->name = "meddiche";
+$user->email = "meddiche@gmail.com";
+$user->birthdate = "2023-11-01";
 $user->save();
 
 
 $Classroom = new Classroom();
-$Classroom->name = "Phoenix";
+$Classroom->name = "namek";
 $Classroom->save();
 
 // include 'Database.php';

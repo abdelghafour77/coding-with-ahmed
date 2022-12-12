@@ -5,6 +5,7 @@
 
 class Classroom extends Model
 {
+      public static $db_table = 'classrooms';
 
       // public function save()
       // {
